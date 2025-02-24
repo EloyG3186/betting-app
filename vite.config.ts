@@ -25,7 +25,6 @@ export default defineConfig({
         manualChunks: {
           react: ['react'],
           'react-dom': ['react-dom'],
-          'event-balance': ['@components/EventBalance'],
         },
       },
     },
